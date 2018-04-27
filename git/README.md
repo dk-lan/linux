@@ -20,23 +20,23 @@
     - `yum -y install gcc automake autoconf libtool make`
     - `yum install gcc gcc-c++`
 
-`./configure --prefix=/usr/local/git --with-iconv=/usr/local/libiconv`
-`make all doc`
+4. `./configure --prefix=/usr/local/git --with-iconv=/usr/local/libiconv`
+5. `make all doc`
 如果出现错误 make[1]: *** [perl.mak] Error 2
     - `yum install perl-ExtUtils-MakeMaker package`
 如果出现错误 po/bg.msg make[1]: *** [po/bg.msg] 错误 127，则需要手动安装
     - `yum install tcl  build-essential tk gettext`
 
-`make install install-doc install-html`
+6. `make install install-doc install-html`
 
-4. 修改环境变量
+7. 修改环境变量
 `vi /etc/profile`
 在最后一行添加
 `export PATH=/usr/local/git/bin:$PATH`
 保存后使其立即生效
 `source /etc/profile`
 
-6. 查看是否安装成功
+8. 查看是否安装成功
 `git --version`
 
 ## git 配置
@@ -45,7 +45,7 @@
 `git config --global user.email "youremail"`
 
 2. git ssh key pair 配置 
-一路回车,不要输入任何 , 最后生成 ssh key pair
+一路回车,不要输入任何 , 最后生成 ssh key pair  
 `ssh-keygen -t rsa -C "youremail@example.com"`
 
 3. `ssh -add ~/.ssh/id_rsa`
