@@ -3,7 +3,7 @@
 ### mac ssh 连接
 1. 在 Mac 打开终端
 2. 输入命令 ssh root@ip -p 端口号
-3. ssh root@45.78.38.83 -p 28639 bbzKPLp7XXMy
+3. ssh root@127.0.0.1 -p 22 XkmucVDjFRd9
 
 ### shadowsocks
 shadowsocks 是一款自定义协议的代理软件，由于其流量特征不明显，一直可以稳定提供上网代理。
@@ -77,7 +77,7 @@ log_stderr=true
 logfile=/var/log/shadowsocks.log
 ```
 10. 设置开机启动 `vi /etc/rc.local`
-11. 将下面内容复制进去然后保存退出 ‘service supervisord start’
+11. 将下面内容复制进去然后保存退出 `service supervisord start`
 12. 重启服务器 `reboot`
 
 ##### shadowsocks 操作
