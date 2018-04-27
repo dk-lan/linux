@@ -16,17 +16,15 @@
 
 3. 编译安装
 `make configure`
-如果出现错误 make: command not found，则表示 make 需要手动安装
+- 如果出现错误 make: command not found，则表示 make 需要手动安装
     - `yum -y install gcc automake autoconf libtool make`
     - `yum install gcc gcc-c++`
 
 4. `./configure --prefix=/usr/local/git --with-iconv=/usr/local/libiconv`
 5. `make all doc`
-
-如果出现错误 make[1]: *** [perl.mak] Error 2
+- 如果出现错误 make[1]: *** [perl.mak] Error 2
     - `yum install perl-ExtUtils-MakeMaker package`
-
-如果出现错误 po/bg.msg make[1]: *** [po/bg.msg] 错误 127，则需要手动安装
+- 如果出现错误 po/bg.msg make[1]: *** [po/bg.msg] 错误 127，则需要手动安装
     - `yum install tcl  build-essential tk gettext`
 
 6. `make install install-doc install-html`
@@ -42,9 +40,8 @@
     - `git config --global user.email "youremail"`
 
 2. git ssh key pair 配置
-
-一路回车,不要输入任何 , 最后生成 ssh key pair  
-`ssh-keygen -t rsa -C "youremail@example.com"`
+    - 一路回车,不要输入任何 , 最后生成 ssh key pair  
+    - `ssh-keygen -t rsa -C "youremail@example.com"`
 
 3. `ssh -add ~/.ssh/id_rsa`
 4. `cat ~/.ssh/id_rsa.pub `
