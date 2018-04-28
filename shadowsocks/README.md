@@ -82,6 +82,7 @@ logfile=/var/log/shadowsocks.log
 ### 客户端配置
 - 下载对应平台的 shadowsocks 客户端。
 - 下载地址：`https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients`
+- 下载地址：`https://cdnfile.fyvps.com/ShadowsocksX-NG-R8.dmg`
 - 安装客户端
 - 填写对应服务端配置
 - 配置成功后可以看墙外的风景了。
