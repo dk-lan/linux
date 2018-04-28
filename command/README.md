@@ -26,8 +26,9 @@ Yum:  Update Modifier，是一种基于rpm的包管理工具.
 - `yum install wget`
 - `wget [url]` -> 用于下载文件
 
-### 重命名
-- `mv oldname newname`
+### mv
+- `mv oldname newname` -> 重命名
+- `mv filename pathname` -> 移动文件到对应的目录
 
 ### 端口
 - `lsof -i:端口号` 用于查看某一端口的占用情况，比如查看8000端口使用情况，lsof -i:8000
