@@ -5,3 +5,4 @@
 - [nodejs](https://github.com/dk-lan/linux/tree/master/nodejs)
 - [mongodb](https://github.com/dk-lan/linux/tree/master/mongodb)
 - [nginx 反向代理 nodejs](https://github.com/dk-lan/linux/tree/master/nginx)
+- [mysql](https://github.com/dk-lan/linux/tree/master/mysql)
